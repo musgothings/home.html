@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>musgo thigs labs.</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--font-->
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <!--external css-->
+        <link rel="stylesheet" type="text/css" href="https://drive.google.com/uc?export=view&id=1uq8Ja4QwWoxaKqWzpex41S0gaTywlWoR">
+        
+        
+    </head>
+    <body>
+        <!--loading-->
+        <div id='load'></div>
+            <div id='container'>
+                <!--logo and name-->
+                <div id="name">
+                    <a class="a-flat" href="labs.musgothings.com">
+                    <img id="logo" 
+                    src= "https://drive.google.com/uc?export=view&id=1kdiKk__bASqqxbUkCN-2EYrElnT4t-JI"
+                    alt = "logo">
+                    musgo things.
+                    </a>
+                </div>
+                
+                <!--menu-->
+                    <div id="navbar">
+                        -
+                        <ul id="menu">
+                            <li class="li-menu"><a class="a-flat, active" href="">home.</a></li>
+                            <li class="li-menu"><a class="a-flat" href="">about.</a></li>
+                            <li class="li-menu"><a class="a-flat" href="">contact.</a></li>
+                        </ul>
+                    </div>
+                <!--content-->
+                
+                <!--footer-->
+                    <div id="footer">
+                    <p> � musgo things. <br> cdmx.</p>
+                    </div>
+            </div>
+    <!--loading script-->
+    <script>
+        window.onload= function() {
+            document.getElementById('load').style.opacity = "0";
+            document.getElementById('container').style.opacity = "1";
+        }
+    </script> 
+    </body>
+</html>
